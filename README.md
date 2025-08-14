@@ -58,3 +58,26 @@ The Secure Smart Agriculture System enables:
 ---
 
 ## 📂 Project Structure
+Agri-V5/
+│
+├── esp32-backend/ # Backend API + MQTT Subscriber
+│ ├── controllers/ # Auth & sensor controllers
+│ ├── models/ # Mongoose models
+│ ├── index.js # Main entry point
+│ └── mqttSubscriber.js
+│
+├── frontend/ # Web UI (if available)
+│
+├── README.md
+└── package.json
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Bloodshot2o/Secure-Smart-Agriculture-System.git
+cd Secure-Smart-Agriculture-System
+
+
