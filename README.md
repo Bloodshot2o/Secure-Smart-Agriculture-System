@@ -57,6 +57,13 @@ The Secure Smart Agriculture System enables:
 
 ---
 
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Bloodshot2o/Secure-Smart-Agriculture-System.git
+cd Secure-Smart-Agriculture-System
+
 ## 📂 Project Structure
 Agri-V5/
 │
@@ -71,13 +78,6 @@ Agri-V5/
 ├── README.md
 └── package.json
 
----
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Bloodshot2o/Secure-Smart-Agriculture-System.git
-cd Secure-Smart-Agriculture-System
 
 
