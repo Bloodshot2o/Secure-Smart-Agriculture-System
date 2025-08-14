@@ -79,5 +79,43 @@ Agri-V5/
 └── package.json
 
 
+2️⃣ Backend Setup
+cd esp32-backend
 
+# Install dependencies
+npm install
+
+# Create .env file and add:
+PORT=5000
+MONGO_URI=your-mongodb-uri
+JWT_SECRET=your-secret-key
+MQTT_BROKER=mqtt://broker.hivemq.com
+
+# Run the server
+node index.js
+
+3️⃣ IoT Device Setup
+
+Flash ESP32 with firmware to publish sensor data to the MQTT broker.
+
+Configure WiFi credentials and MQTT topic in ESP32 code.
+
+4️⃣ Frontend Setup (if applicable)
+cd frontend
+npm install
+npm start
+
+📡 API Endpoints (Backend)
+Method	Endpoint	Description
+POST	/api/auth/register	Register new user
+POST	/api/auth/login	Login user & get token
+GET	/api/sensor	Get latest sensor data
+POST	/api/sensor	Add new sensor reading
+
+🔒 Security Measures
+
+JWT Authentication for API access
+Bcrypt password hashing
+Role-based access control
+Secure MQTT communication
 
